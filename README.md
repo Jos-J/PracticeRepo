@@ -5,7 +5,7 @@ Repo i use for Practicing my Coding Skills, and tips
 
  <code>Var</code>: Used in older JavaScript code, but generally discouraged in modern development due to its function-scoped nature, which can lead to unexpected behavior
 
-<code>const</code>:
+<code>Const</code>:
 for variables that should not be reassigned. providing clarity and preventing accidental modifications.</li>
 
 ```
