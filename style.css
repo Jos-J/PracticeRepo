@@ -1,0 +1,10 @@
+<style>
+  code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #333;
+  }
+</style>
+<p>Use <code>const</code>, <code>let</code>, and avoid <code>var</code> in modern JavaScript development.</p>
