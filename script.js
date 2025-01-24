@@ -37,24 +37,42 @@
 // console.log(gcd(20, 8));
 
 
-function selectionSortArray( arr) {
-    // loop through the entire array
-    for ( let i = 0; i < arr.length - 1; i++) {
-        // Assume the first unsorted element is the smallest
-        let minIndex = 1;
+// function selectionSortArray( arr) {
+//     // loop through the entire array
+//     for ( let i = 0; i < arr.length - 1; i++) {
+//         // Assume the first unsorted element is the smallest
+//         let minIndex = 1;
 
-        // Find the index of the smallest element in the unsorted portion
-        for ( let j = i + 1; j < arr.length; j++) {
-            if (arr[j] < arr[minIndex]) {
-                minIndex = j;
-            }
-        }
-        // Swap the smalles element with the first element of the unsorted portion
-        if(minIndex !==i) {
-            let temp = arr[i];
-            arr[i] = arr[minIndex];
-            arr[minIndex] = temp;
-        }
+//         // Find the index of the smallest element in the unsorted portion
+//         for ( let j = i + 1; j < arr.length; j++) {
+//             if (arr[j] < arr[minIndex]) {
+//                 minIndex = j;
+//             }
+//         }
+//         // Swap the smalles element with the first element of the unsorted portion
+//         if(minIndex !==i) {
+//             let temp = arr[i];
+//             arr[i] = arr[minIndex];
+//             arr[minIndex] = temp;
+//         }
 
-    }    
+//     }    
+// }
+
+let baseSalary = 30_000;
+let overTime = 10;
+let rate = 20;
+
+function getWage(baseSalary, overTime, rate) {
+    return baseSalary + ( overTime * rate);
 }
+console.log(getWage(baseSalary, overTime, rate));
+
+// let employee = {
+//     baseSalary: 30_000,
+//     overTime: 10,
+//     rate: 20,
+//     getWage: function() {
+//      return this.baseSalary + (this.overTime * this.rate);   
+//     }
+// }
