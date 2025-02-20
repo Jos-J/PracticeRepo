@@ -1,2 +1,6 @@
-DROP DATABASE IF EXISTS sample_db;
-CREATE DATABASE mountains_db;
+CREATE TABLE testTable2 (
+    ID INT,
+    Name VARCHAR(40),
+    Birthday DATE
+);
+
