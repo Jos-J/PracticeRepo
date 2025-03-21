@@ -1,4 +1,4 @@
-CREATE TABLE Family (
+CREATE TABLE Family2 (
     ID SMALLINT UNSIGNED,
     Name VARCHAR(60),
     Salary DECIMAL (7,2),
