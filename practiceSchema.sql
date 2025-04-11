@@ -41,4 +41,4 @@
 -- value
 -- (6, "dougie", "fresh", "a vagina", 45, "rando");
 
-SELECT * FROM avengers;
+SELECT * FROM avengers            
