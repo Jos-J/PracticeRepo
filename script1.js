@@ -28,3 +28,11 @@ class Person {
 // Create an object (instance) of the class
 const person1 = new Person("Jimi", 125);
 person1.greet();  // Output: Hi, my name is Jimi and I'm 125 years old.
+
+
+function greet(name) {
+  console.log("hello," + name);
+}
+
+
+greet("doug");
