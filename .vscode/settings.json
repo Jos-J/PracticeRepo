@@ -15,5 +15,9 @@
             "password": "jimi945$",
             "connectionTimeout": 30
         }
-    ]
+    ],
+    "java.project.sourcePaths": [
+        "."
+    ],
+    "java.project.referencedLibraries": []
 }
