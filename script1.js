@@ -1,3 +1,14 @@
+// arithmetic operations
+let price = 100;
+let VAR = price;
+const TAX_RATE = 0.06;
+
+totalPriceWithTax = price + (price * TAX_RATE)
+
+console.log(totalPriceWithTax)
+
+
+
 // Function definition with a parameter called 'name'
 function greet(name) {
     console.log("Hello," + name);
@@ -36,3 +47,4 @@ function greet(name) {
 
 
 greet("doug");
+
