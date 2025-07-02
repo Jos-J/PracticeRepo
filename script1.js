@@ -1,6 +1,6 @@
 // arithmetic operations
-let price = 100;
-let VAR = price;
+price = 100;
+VAR = price;
 const TAX_RATE = .20
 
 totalPriceWithTax = price + (price * TAX_RATE)
